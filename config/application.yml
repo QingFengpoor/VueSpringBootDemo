@@ -1,0 +1,11 @@
+# DataSource Config
+spring:
+  datasource:
+    initialization-mode: always
+    platform: postgres
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/demo
+    username: feng
+    password: feng1204
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
